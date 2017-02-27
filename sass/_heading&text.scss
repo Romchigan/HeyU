@@ -1,0 +1,20 @@
+.content {
+  &-heading {
+    color: #363636;
+    font: 900 60px Lato;
+    &-margin {
+      margin: 200px 0 40px 0;
+    }
+    &-padding {
+      padding-left: 100px;
+    }
+  }
+  &-text {
+    color: #808080;
+    font: 400 18px/32px Lato;
+    &-width {
+      width: 540px;
+    }
+  }
+
+}

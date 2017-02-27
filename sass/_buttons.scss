@@ -1,0 +1,25 @@
+.btn {
+  &-download {
+    box-shadow: 0 10px 40px rgba(54, 54, 54, 0.15);
+    border-radius: 25px;
+    background-color: $white;
+    text-shadow: 0 10px 30px rgba(223, 27, 61, 0.3);
+    color: #e83631;
+    font: 700 18px Lato;
+    position: relative;
+    padding: 17px 50px;
+    outline: none;
+    &:focus {
+      box-shadow: 0 10px 40px rgba(54, 54, 54, 0.15);
+    }
+  }
+  &-subscribe {
+    box-shadow: 0 10px 30px rgba(223, 27, 61, 0.3);
+    border-radius: 25px;
+    background-image: linear-gradient(to top, #eb402c 0%, #d90647 100%);
+    color: $white;
+    font: 700 18px Lato;
+    padding: 14px 50px;
+    margin-left: -40px;
+  }
+}
