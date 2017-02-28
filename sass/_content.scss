@@ -36,11 +36,17 @@
   &-heading {
     color: $white;
     font: 900 24px/34px Lato;
+    @media only screen and (max-width: 360px){
+      font: 900 20px/34px Lato;
+    }
   }
   &-info {
     opacity: 0.6;
     color: $white;
     font: 400 16px/28px Lato;
+    @media only screen and (max-width: 360px){
+    font: 400 12px/28px Lato;
+    }
   }
   &-icon {
     &:after {
@@ -50,28 +56,43 @@
       font-weight: 100;
       color: $white;
       top: 0;
+      @media only screen and (max-width: 360px){
+        font-size: 40px;
+      }
     }
     &-first {
       &:after {
         content: "\e04a";
         right: -80px;
+        @media only screen and (max-width: 360px){
+          right: -60px;
+        }
       }
     }
     &-second {
       &:after {
         content: "\e047";
         right: -80px;
+        @media only screen and (max-width: 360px){
+          right: -60px;
+        }
       }
     }&-third {
       &:after {
         content: "\e07f";
         left: -80px;
+        @media only screen and (max-width: 360px){
+          left: -60px;
+        }
       }
     }
     &-fourth {
       &:after {
         content: "\e07e";
         left: -80px;
+        @media only screen and (max-width: 360px){
+          left: -60px;
+        }
       }
     }
   }
@@ -89,6 +110,12 @@
   background-color: #f8f8f8;
   border: none;
   padding: 13px 200px 13px 30px;
+  @media only screen and (max-width: 580px) {
+    padding: 13px 80px 13px 30px;
+  }
+  @media only screen and (max-width: 460px) {
+    padding: 13px 30px 13px 30px;
+  }
   &:focus {
     outline: none;
   }

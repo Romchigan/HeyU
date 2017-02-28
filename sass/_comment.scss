@@ -1,4 +1,7 @@
 .comment {
+  &-section {
+    padding-top: 100px;
+  }
   &-content {
     padding: 25px;
     border: 1px solid #e0e0e0;
@@ -22,7 +25,13 @@
     list-style-type: none;
     width: 420px;
     padding: 0 30px;
-    margin-bottom: 30px;
+    margin: 30px 0 40px;
+  }
+  &-active {
+    margin: -30px 0 60px;
+    @media only screen and (max-width: 360px){
+      margin: 0 0 60px;
+    }
   }
   &-text {
     color: #808080;
@@ -54,5 +63,4 @@
 
 .shadow-content {
   box-shadow: 0 30px 60px rgba(54, 54, 54, 0.15);
-  margin: -30px 0 60px;
 }
