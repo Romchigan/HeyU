@@ -54,10 +54,16 @@
   &-name {
     color: #363636;
     font: 400 18px/32px Lato;
+    @media only screen and (max-width: 400px){
+      padding-left: 15px;
+    }
   }
   &-position {
     color: #667386;
     font: 400 16px/28px Ubuntu;
+    @media only screen and (max-width: 400px){
+      padding-left: 15px;
+    }
   }
 }
 
